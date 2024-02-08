@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #00AFB5;
+}
+
+/* CONTAINER COVERS ALL CONTENT ON PAGE */
+.container{
+    border: 0.2rem solid #3F4531;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #F4B9B2;
+	min-width: 80vh;
+    min-height: 50vh;
+}
+
+h1{
+    text-align: center;
+}
+
+/* FORM DOES NOT INCLUDE HEADING 'CURRENCY CONVERTOR' */
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form input, select, button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    padding-left: 0.5rem;
+    border: 0.1rem solid #30011E;
+    height: 2.1rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    background-color: #BCF4DE;
+}
+
+/* DROPDOWN DIV DOES NOT INCLUDE INPUT, MESSAGE AND BUTTON */
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin: 1.7rem 1rem 0 1rem;
+}
+
+.select-container img{
+    max-width: 3rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    border: 0.09rem solid #30011E;
+    border-radius: 1rem;
+    padding: 0 0.8rem 0 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.select-container select{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    /* width: auto; */
+    padding: 0.3rem;
+    min-width: 6rem;
+}
+
+/* DISPLAY MESSAGE AND CONVERTOR BUTTON */
+.mssg{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    background-color: #BCF4DE;
+    border: 0.1rem solid #30011E;
+    width: 70%;
+}
